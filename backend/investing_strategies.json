@@ -1,0 +1,88 @@
+{
+  "Ethical Investing": [
+    {
+      "symbol": "FSLR",
+      "name": "First Solar Inc.",
+      "percentage": "30"
+    },
+
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc.",
+      "percentage": "33"
+    },
+    {
+      "symbol":"ADBE",
+      "name":"Adobe Inc",
+      "percentage":"37"
+    }
+  ],
+  "Growth Investing": [
+    {
+      "symbol": "CPRX",
+      "name": "Catalyst Pharmaceutical Inc.",
+      "percentage": "36"
+    },
+    {
+      "symbol": "ENPH",
+      "name": "Enphase Energy Inc.",
+      "percentage": "29"
+    },
+    {
+      "symbol": "DGII",
+      "name": "Digi International Inc.",
+      "percentage": "35"
+    }
+  ],
+  "Index Investing": [
+    {
+      "symbol": "DXCM",
+      "name": "DexCom, Inc",
+      "percentage": "40"
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "percentage": "25"
+    },
+    {
+      "symbol": "UNH",
+      "name": "United Health Group Inc",
+      "percentage": "35"
+    }
+  ],
+  "Quality Investing": [
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "percentage": "37"
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac Holdings",
+      "percentage": "45"
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "percentage": "18"
+    }
+  ],
+  "Value Investing": [
+    {
+      "symbol": "TGT",
+      "name": "Target",
+      "percentage": "25"
+    },
+    {
+      "symbol": "EXC",
+      "name": "Excelon",
+      "percentage": "35"
+    },
+    {
+      "symbol": "PFE",
+      "name": "Pfizer Inc.",
+      "percentage": "40"
+    }
+  ]
+}
