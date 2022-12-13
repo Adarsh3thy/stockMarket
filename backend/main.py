@@ -1,4 +1,5 @@
 from flask import Flask, request
+from flask_cors import CORS, cross_origin
 import json
 import logging
 from datetime import datetime, timedelta
@@ -9,9 +10,12 @@ import random
 logging.basicConfig(level=logging.INFO)
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/')
 @app.route('/hello')
+@cross_origin()
 def hello():
     return 'Welcome to stock portfolio engine!'
 
@@ -70,6 +74,7 @@ def get_weekly_trends(stocks):
 
 
 @app.route('/investplan', methods=['POST', 'GET'])
+@cross_origin()
 def result():
     json_input = request.get_json()
     amount = json_input['amount']

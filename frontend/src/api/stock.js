@@ -1,6 +1,6 @@
 const getInvestPlan = async (data) => {
-    // const path = "http://localhost:8080/investplan"
-    const path = "https://rohitkphilip.pythonanywhere.com/investplan"
+    const path = "http://localhost:8080/investplan"
+    // const path = "https://rohitkphilip.pythonanywhere.com/investplan"
     const response = await fetch(path, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
