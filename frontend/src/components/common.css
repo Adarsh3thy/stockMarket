@@ -1,0 +1,44 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.amount {
+    width: 300px;
+  }
+  
+  .select {
+    width: 300px;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form {
+    height: 100%;
+  }
+
+  .App {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .loader {
+    z-index: 1;
+  }
