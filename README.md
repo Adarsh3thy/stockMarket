@@ -1,1 +1,1 @@
-# stockMarket
+# Stock Suggestion Engine
